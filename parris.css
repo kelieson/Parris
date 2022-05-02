@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 12vh;
+  color: #FF9900;
+  font-size: 2rem;
+}
+
+em {
+    font-style: normal;
+    color: #FF9900;
+}
+
+body {
+  background-image: url(illustration.jpg);
+  max-height: 100vh!;
+  max-width: 100vw!;
+  margin: 20px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 10vh;
+}
+
+.subtitle {
+  padding-top: 0.5vh;
+  color: rgb(182, 175, 165);
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+}
+
+.years {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.person h3 {
+  color: #FF9900;
+  text-align: center;
+  padding-top: 3vh;
+  padding-bottom: 1vh;
+}
+
+.person h4 {
+  color: rgb(131, 126, 119);
+  font-size: 1rem;
+}
+
+.person p {
+  color: rgb(131, 126, 119);
+  font-size: 1rem;
+}
